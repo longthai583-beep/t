@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hover Dropdown</title>
+
+<style>
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    padding:50px;
+}
+
+/* Dropdown Container */
+.dropdown{
+    position:relative;
+}
+
+/* Button */
+.dropbtn{
+    background:#007bff;
+    color:white;
+    padding:14px 20px;
+    font-size:18px;
+    border:none;
+    cursor:pointer;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.dropbtn:hover{
+    background:#0056b3;
+}
+
+/* Dropdown Menu */
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background:white;
+    min-width:180px;
+    box-shadow:0 8px 16px rgba(0,0,0,0.2);
+    border-radius:8px;
+    overflow:hidden;
+}
+
+/* Links */
+.dropdown-content a{
+    color:black;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+    transition:0.3s;
+}
+
+.dropdown-content a:hover{
+    background:#007bff;
+    color:white;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+</style>
+</head>
+
+<body>
+
+<div class="dropdown">
+    <button class="dropbtn">Menu</button>
+
+    <div class="dropdown-content">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+</div>
+
+</body>
+</html>
