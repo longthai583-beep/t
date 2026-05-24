@@ -13,7 +13,7 @@
 header {
   width: 100%;
   height: 100px;
-  background-color: white;
+  background-color: #FFC500;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -21,14 +21,15 @@ header {
   position: fixed;
   z-index: 1;
 }
-.a2 {
+.a2 { 
   width: 100%;
   height: 100px;
 }
 .a2 img {
   width: 20%;
-  height: 100px;
+  height: 50px;
   position: absolute;
+  top: 20px;
   left: 120px;
 }
 .a3 {
@@ -73,7 +74,7 @@ header {
   border-radius: 10px;
   width: 100px;
   height: 70px;
-  background-color: white;
+  background-color: #FFC500;
   color: black;
   border: none;
 }
@@ -84,7 +85,7 @@ header {
 .q2 {
   width: 180px;
   height: 210px;
-  background-color: #1b3351;
+  background-color: #534F42;
   position: absolute;
   right: 1px;
   display: none;
@@ -111,7 +112,7 @@ header {
 .head1 {
   width: 100%;
   height: 50px;
-  background-color:red;
+  background-color:#534F42;
     position: fixed;
     margin-top: 150px;
 }
@@ -132,7 +133,7 @@ header {
   content: "";
   width: 0px;
   height: 3px;
-  background-color: white;
+  background-color: red;
   margin: auto;
   display: block;
 }
@@ -146,19 +147,19 @@ header {
 .w1 {
   width: 100px;
   height: 30px;
-  background-color: red;
+  background-color: #534F42;
   border-radius: 10px;
-  color: black;
+  color: white;
   border: none;
 }
 .w1:hover {
   transition: 0.3s ease-in-out;
-  background-color: white;
+  background-color: #FFC500;
 }
 .w2 {
   width: 300px;
   height: 300px;
-  background-color: #122133;
+  background-color: #534F42;
   position: absolute;
   left: 0px;
   display: none;
@@ -186,19 +187,19 @@ header {
 .e1 {
   width: 100px;
   height: 30px;
-  background-color: red;
+  background-color: #534F42;
   border-radius: 10px;
-  color: black;
+  color: white;
   border: none;
 }
 .e1:hover {
   transition: 0.3s ease-in-out;
-  background-color: white;
+  background-color: #FFC500;
 }
 .e2 {
   width: 300px;
   height: 270px;
-  background-color: #122133;
+  background-color: #FFC500;
   position: absolute;
   left: 0px;
   display: none;
@@ -226,19 +227,19 @@ header {
 .r1 {
   width: 100px;
   height: 30px;
-  background-color: red;
+  background-color: #534F42;
   border-radius: 10px;
-  color: black;
+  color: white;
   border: none;
 }
 .r1:hover {
   transition: 0.3s ease-in-out;
-  background-color: white;
+  background-color: #FFC500;
 }
 .r2 {
   width: 300px;
   height: 320px;
-  background-color: #122133;
+  background-color: #FFC500;
   position: absolute;
   left: 0px;
   display: none;
@@ -266,19 +267,19 @@ header {
 .t1 {
   width: 100px;
   height: 30px;
-  background-color: red;
+  background-color: #534F42;
   border-radius: 10px;
-  color: black;
+  color: white;
   border: none;
 }
 .t1:hover {
   transition: 0.3s ease-in-out;
-  background-color: white;
+  background-color: #FFC500;
 }
 .t2 {
   width: 300px;
   height: 550px;
-  background-color: #122133;
+  background-color: #FFC500;
   position: absolute;
   left: 0px;
   display: none;
@@ -314,12 +315,12 @@ nav {
   background-color: yellow;
   border: 0.1px solid white;
   margin-top: 153px;
-  padding: 50px;
+  padding: 0px;
   padding-left: 250px;
 }
 .con {
-  width: 1000px;
-  height: 400px;
+  width: 1100px;
+  height: 500px;
   display: flex;
   border-radius: none;
   border: 1px solid #404040;
@@ -347,7 +348,7 @@ nav {
 section {
   width: 100%;
   height: 150px;
-  background-color: brown;
+  background-color:#534F42;
   position: relative;
 }
 .qe {
@@ -393,7 +394,7 @@ section {
 .section1 {
   width: 100%;
   height: 430px;
-  background-color: red;
+  background-color: #E8AC0B;
   position: relative;
     justify-content: center;
     align-items: center;
@@ -430,7 +431,7 @@ section {
 }
 .bn1 img{
   width: 100%;
-  height: 215px;
+  height:225px;
   border-radius: 20px 20px 0px 0px;
 }
 .bn1 p{
@@ -453,7 +454,7 @@ section {
 .section2 {
   width: 100%;
   height: 460px;
-  background-color: red;
+  background-color:#E8AC0B;
   position: relative;
     justify-content: center;
     align-items: center;
@@ -491,7 +492,7 @@ section {
 }
 .bn2 img{
   width: 100%;
-  height: 215px;
+  height: 225px;
   border-radius: 20px 20px 0px 0px;
 }
 .bn2 p{
@@ -515,7 +516,7 @@ section {
 .section3 {
   width: 100%;
   height: 460px;
-  background-color: red;
+  background-color: #E8AC0B;
   position: relative;
     justify-content: center;
     align-items: center;
@@ -577,7 +578,7 @@ section {
 .section4{
   width: 100%;
   height: 680px;
-  background-color: brown;
+  background-color: #F7C53D;
 }
 .po{
     display: grid;
@@ -601,7 +602,7 @@ section {
 .section5{
   width: 100%;
   height: 300px;
-  background-color: white;
+  background-color: #534F42;
   padding: 20px;
   padding-left: 175px;
 }
@@ -632,7 +633,7 @@ section {
 .section6{
   width: 100%;
   height: 650px;
-  background-color: white;
+  background-color: #534F42;
   padding: 20px;
   padding-left: 175px;
 }
@@ -663,7 +664,7 @@ section {
 .section7{
   width: 100%;
   height: 450px;
-  background-color: white;
+  background-color: #534F42;
   padding: 20px;
   padding-left: 175px;
 }
@@ -695,7 +696,7 @@ section {
 .section8 {
   width: 100%;
   height: 500px;
-  background-color: red;
+  background-color: #F7C53D;
   position: relative;
     justify-content: center;
     align-items: center;
@@ -727,7 +728,7 @@ section {
   min-width: 280px;
   height: 380px;
 
-  background-color: #1B2232;
+  background-color: white;
   border-radius: 20px;
 }
 .bn6 img{
@@ -755,7 +756,7 @@ section {
 footer{
   width: 100%;
   height: 450px;
-  background-color: brown;
+  background-color: #534F42;
   padding: 40px;
   padding-left: 50px;
   color: white;
@@ -763,13 +764,13 @@ footer{
 .lp{
   width: 100%;
   height: 100%;
-  background-color: brown;
+  background-color: #534F42;
   text-align: center;
 }
 .mn{
   width: 100%;
   height: 20%;
-  background-color: brown;
+  background-color: #534F42;
   padding-top: 40px;
 }
 .mn ul{
@@ -782,7 +783,7 @@ footer{
   content: "";
   width: 0px;
   height: 3px;
-  background-color: white;
+  background-color:red;
   margin: auto;
   display: block;
 }
@@ -793,7 +794,7 @@ footer{
 .mn1{
   width: 100%;
   height: 5%;
-  background-color: brown;
+  background-color: #534F42;
 }
 .mn1 ul{
   display: flex;
@@ -804,7 +805,7 @@ footer{
 .mn2{
   width: 100%;
   height: 40%;
-  background-color: brown;
+  background-color: #534F42;
 }
 .mn2 ul{
   display: flex;
@@ -825,7 +826,7 @@ footer{
 .mn3{
   width: 100%;
   height: 35%;
-  background-color: brown;
+  background-color: #534F42;
 }
 .mn3 ul{
 display: flex;
@@ -843,6 +844,219 @@ gap: 10px;
 .mn3 img:hover{
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
+}
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+@media screen and (max-width: 1024px) {
+
+  header{
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .a2 img{
+    position: static;
+    width: 180px;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+
+  .a3 ul{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .head1{
+    position: relative;
+    margin-top: 0;
+    height: auto;
+  }
+
+  .head1 ul{
+    flex-wrap: wrap;
+    padding-left: 20px;
+    justify-content: center;
+  }
+
+  nav{
+    margin-top: 0;
+    padding-left: 0;
+    height: auto;
+  }
+
+  .con{
+    width: 100%;
+    height: auto;
+  }
+
+  .post img{
+    height: auto;
+  }
+
+  .qe{
+    position: static;
+    height: auto;
+    padding: 20px;
+  }
+
+  .qw{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .mj,
+  .mj1,
+  .mj2,
+  .mj5{
+    padding: 20px;
+  }
+
+  .bn,
+  .bni,
+  .bnii,
+  .bn5{
+    width: 100%;
+  }
+
+  .po{
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .section4{
+    height: auto;
+  }
+
+  .section5,
+  .section6,
+  .section7{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .yu,
+  .yu1,
+  .yu2{
+    width: 100%;
+  }
+
+  footer{
+    height: auto;
+    padding: 20px;
+  }
+
+  .mn ul,
+  .mn1 ul,
+  .mn2 ul,
+  .mn3 ul{
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+}
+@media screen and (max-width: 768px) {
+
+  .a2 img{
+    width: 140px;
+  }
+
+  .a3 ul{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .head1 ul{
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .ul1{
+    padding-left: 0;
+  }
+
+  nav{
+    height: auto;
+  }
+
+  .con{
+    height: 250px;
+  }
+
+  section{
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .qw{
+    gap: 20px;
+  }
+
+  .qw1 img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .bn .bn1,
+  .bni .bn2,
+  .bnii .bn3,
+  .bn5 .bn6{
+    min-width: 240px;
+  }
+
+  .bn1 img,
+  .bn2 img,
+  .bn3 img,
+  .bn6 img{
+    height: 180px;
+  }
+
+  .section1,
+  .section2,
+  .section3,
+  .section8{
+    height: auto;
+  }
+
+  .section4 img{
+    width: 100%;
+  }
+
+  .yu,
+  .yu1,
+  .yu2{
+    height: auto;
+  }
+
+  .boy img,
+  .boy1 img,
+  .boy2 img{
+    height: auto;
+  }
+
+  .mn ul{
+    flex-direction: column;
+  }
+
+  .mn1 ul{
+    flex-direction: column;
+  }
+
+  .mn2 ul{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mn3 ul{
+    flex-wrap: wrap;
+  }
+
 }
 
 
