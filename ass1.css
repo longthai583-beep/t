@@ -845,10 +845,7 @@ gap: 10px;
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
 }
-/* =========================
-   TABLET RESPONSIVE
-========================= */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
 
   header{
     height: auto;
